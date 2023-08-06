@@ -8,7 +8,7 @@ endpoint = "/simple/price"
 url = url + endpoint
 params = {"ids":"bitcoin","vs_currencies":"jpy,usd"}
 
-response = requests.request("GET", url, params=params)
+response = requests.get(url, params=params)
 r = response.json()
 
 print("1BTCの価格")
