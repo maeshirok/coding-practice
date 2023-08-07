@@ -1,5 +1,5 @@
 """
-CoinGecko APIを利用してbitcoinの価格を取得するプログラムです。
+CoinGecko APIを利用してbitcoinの価格を取得するコードです。
 """
 import requests
   
