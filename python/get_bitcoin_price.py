@@ -3,7 +3,7 @@
 CoinGecko APIを利用してbitcoinの価格を取得し出力
 """
 import requests
-  
+
 url = "https://api.coingecko.com/api/v3"
 endpoint = "/simple/price"
 url = url + endpoint
