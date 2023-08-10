@@ -1,5 +1,6 @@
 """
-Joke APIを利用してプログラミングに関するジョークをいうコードです。
+2023/08/07
+Joke APIを利用してプログラミングに関するジョークを出力
 """
 import requests
 
@@ -10,5 +11,5 @@ url = url + endpoint
 responce = requests.get(url)
 r = responce.json()
 
-print(r[0]['setup'])
-print(r[0]['punchline'])
+print(f"setup:{r[0]['setup']}")
+print(f"punchline:{r[0]['punchline']}")
