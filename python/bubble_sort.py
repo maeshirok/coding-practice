@@ -21,7 +21,7 @@ def bubble_sort(data):
     return data
 
 if __name__ == '__main__':
-    DATA = [6, 15, 4, 2, 8, 5, 11, 9, 7, 13]
+    DATA = [3, 8, 11, 6, 17, 5]
     sorted_data = bubble_sort(DATA.copy())
 
     print(f"old:{DATA}")
