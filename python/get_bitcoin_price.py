@@ -15,5 +15,5 @@ r = response.json()
 jpy = '{:,}'.format(r['bitcoin']['jpy'])
 usd = '{:,}'.format(r['bitcoin']['usd'])
 
-print(f"{str(jpy)} JPY")
-print(f"{str(usd)} USD")
+print(f"{jpy} JPY")
+print(f"{usd} USD")
